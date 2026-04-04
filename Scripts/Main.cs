@@ -9,9 +9,6 @@ using System.Threading.Tasks;
 using UnityEditor;
 using UnityEngine;
 
-// no i nadal trzeba zrobic, zeby dalo sie poprawiac tylko pojedyncze ujecia po recznej modyfikacji planow
-// zanim podzielimy na batche wypadaloby posortowac plany, najpierw po srodowiskach, potem po typach ujec. Moment, czemu 1 batch nie moze zawierac wiecej niz jeden typ ujec?
-
 //interestPointGenerator.PrepareNavMeshTriangulations();  // because (baked) navmesh is a singleton the triangulation cannot be done in advance i think
 
 public class Main : MonoBehaviour
